@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.us-west-2.amazonaws.com/v1/repos/codeDeployDemo"
+    "url": "https://git-codecommit.us-west-1.amazonaws.com/trail_03/repos/Pipeline_Build01"
   },
   "keywords": [
     "node"
   ],
-  "author": "Sandip Das",
+  "author": "Sushanth Dayala",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.3",
