@@ -20,7 +20,7 @@ if [[ -n "$3" ]]; then
 fi
 
 
-aws ecr get-login-password --region "${region}" --profile "${profile}" | docker login --username AWS --password-stdin "120717539064.dkr.ecr.${region}.amazonaws.com"
+aws ecr get-login-password --region "${region}" --profile "${profile}" | docker login --username AWS --password-stdin "098051538638.dkr.ecr.${region}.amazonaws.com"
 docker build -t "${buildTag}" .
-docker tag "${buildTag}" "120717539064.dkr.ecr.us-west-2.amazonaws.com/${buildTag}"
-docker push "120717539064.dkr.ecr.us-west-2.amazonaws.com/${buildTag}"
+docker tag "${buildTag}" "098051538638.dkr.ecr.us-west-1.amazonaws.com/${buildTag}"
+docker push "098051538638.dkr.ecr.us-west-1.amazonaws.com/${buildTag}"
